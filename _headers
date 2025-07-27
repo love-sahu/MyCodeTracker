@@ -1,0 +1,8 @@
+/assets/*.js  Content-Type: text/javascript
+/main.js  Content-Type: text/javascript
+
+mkdir -p public
+touch public/_headers
+
+/*.js   Content-Type: text/javascript
+/*.css  Content-Type: text/css
