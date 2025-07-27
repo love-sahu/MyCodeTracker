@@ -1,0 +1,45 @@
+/* Container for the request section */
+.request-demo-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 2rem;
+    background-color: #eeeaea;
+  }
+  
+  /* Content inside the request section */
+  .request-demo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Style for the paragraph */
+  .request-demo-content p {
+    flex: 1;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-right: 20px; /* Space between text and button */
+  }
+  
+  /* Button styling */
+  .request-button {
+    padding: 10px 20px;
+  
+    color: rgb(5, 5, 5);
+    border: 2px solid  #007BFF;;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for button */
+  .request-button:hover {
+    background-color:#007BFF;
+  }
+  

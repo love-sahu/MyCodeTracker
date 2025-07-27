@@ -1,0 +1,143 @@
+/* Main container */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 5rem;
+    background-color: #ebe8e8; /* Light gray background */
+  }
+  
+  /* Text content */
+  .about-content {
+    max-width: 70%;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007BFF; /* Blue title */
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+   
+  }
+  .about-title:hover{
+     text-decoration: underline;
+    color: rgb(90, 193, 26);
+  }
+  
+  .about-description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #3A3A3A; /* Dark gray for the text */
+    margin-bottom: 2rem;
+  }
+  
+  /* Buttons styling */
+  .about-buttons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .demo-btn, .test-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: 2px solid #007BFF; /* Blue border */
+    background-color: transparent;
+    color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect on buttons */
+  .demo-btn:hover, .test-btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  /* Image section */
+  .about-image img {
+    width: 350px; /* Set the desired width */
+    height: 350px; /* Set the desired height */
+    border-radius: 100%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+    box-shadow: 2px 2px 4px rgba(103, 241, 39, 0.1); /* Add shadow */
+    border: 1px solid green;
+    margin: 0 auto; /* Center the image */
+}
+
+  
+  /* For responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .about-content {
+      max-width: 100%;
+      text-align: center;
+    }
+    
+    .about-buttons {
+      justify-content: center;
+    }
+    
+    .about-image {
+      margin-top: 2rem;
+    
+    }
+  }
+  
+  /*Another section*/
+
+  .how-it-works {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #f9f6f6;
+  }
+  
+  .how-it-works h2 {
+    font-size: 36px;
+    color: #1c1c1c;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px;
+  }
+  
+  .step {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .step img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .step h3 {
+    font-size: 24px;
+    color: #007BFF;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .step p {
+    font-size: 16px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+  }
+  
